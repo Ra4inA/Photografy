@@ -623,7 +623,7 @@ header {
 
 /*About*/
 .about {
-  overflow: visible;
+  overflow: hidden;
   margin-top: 150px;
 }
 .about .container {
@@ -735,7 +735,9 @@ header {
 /*Portfolio*/
 .portfolio {
   margin: 150px 0;
+  overflow: hidden;
 }
+
 .portfolio .container {
   display: -webkit-box;
   display: -ms-flexbox;
